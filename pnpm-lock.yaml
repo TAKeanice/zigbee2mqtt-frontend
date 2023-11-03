@@ -228,8 +228,8 @@ devDependencies:
     specifier: ~8.14.2
     version: 8.14.2
   zigbee-herdsman:
-    specifier: ~0.19.0
-    version: 0.19.0
+    specifier: ~0.22.0
+    version: 0.22.0
   zigbee-herdsman-converters:
     specifier: ~15.87.0
     version: 15.87.0
@@ -5744,6 +5744,23 @@ packages:
 
   /zigbee-herdsman@0.19.0:
     resolution: {integrity: sha512-85CRuDuGPSN7D3095/+45FybEfEUduaAEsuo7UQtxBX7c82kUzaIIKfT8YbGOEgoTZw5Q+y3QUiWLQFlxLc4VQ==}
+    dependencies:
+      '@serialport/bindings-cpp': 12.0.1
+      '@serialport/parser-delimiter': 12.0.0
+      '@serialport/stream': 12.0.0
+      bonjour-service: 1.1.1
+      debounce: 1.2.1
+      debug: 4.3.4
+      fast-deep-equal: 3.1.3
+      mixin-deep: 2.0.1
+      mz: 2.7.0
+      slip: 1.0.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /zigbee-herdsman@0.22.0:
+    resolution: {integrity: sha512-LW09ajt5habI/sOsdwqNYGd9jq1JJSC20N2q49y+SIETWM9o5t64TfckUnjO/Mo3a+FdBs5wLAn9Xt0X63RZyA==}
     dependencies:
       '@serialport/bindings-cpp': 12.0.1
       '@serialport/parser-delimiter': 12.0.0
